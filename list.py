@@ -1,9 +1,31 @@
-"""
-[[1,2]
-[3,4]
-[5,6]]"""
+l=[2,3,4,5,6]
+for i in l:
+    print(i)
+    
+#replication *
+l1=l*4
+print(l1)
 
-l=eval(input("Enter the nested list"))
-m=len(l) #no of rows
-n=len(l[0]) #no of colums
-for i 
+#concatenation +
+l2=l+["m","k","L"]
+print(l2)
+
+#membership operator
+e=5
+print(e in l)
+
+''' FUNCTIONS '''
+#FUNCTIONS USED WITH LISTS
+print(max(l))
+print(min(l))
+print(sum(l))
+print(len(l))
+del(l[3])
+print(l)
+
+''' METHOD '''
+lx=l.copy()
+
+
+
+
